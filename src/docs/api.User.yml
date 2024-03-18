@@ -1,0 +1,11 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: Simple API
+paths:
+  /:
+    get:
+      summary: Récupère une liste d'éléments
+      responses:
+        "200":
+          description: OK
